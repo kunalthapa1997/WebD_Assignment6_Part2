@@ -1,0 +1,47 @@
+/* Main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  /* Timer */
+  .timer {
+    margin-top: 20px;
+    font-size: 72px;
+    color: #333;
+  }
+  
+  /* Buttons */
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  /* Button styles */
+  button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
