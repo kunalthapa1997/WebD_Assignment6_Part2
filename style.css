@@ -1,4 +1,9 @@
 /* Main container */
+
+body {
+    background-color: bisque;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -9,8 +14,14 @@
   
   /* Title */
   .title {
-    font-size: 36px;
+    font-size: 4rem;
     color: #333;
+  }
+
+  .sub-title {
+    font-size: 2rem;
+    color: #333;
+    margin-top: -2rem;
   }
   
   /* Timer */
